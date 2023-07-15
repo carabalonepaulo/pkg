@@ -1,0 +1,19 @@
+{
+  "name": "novel-reader",
+  "collaborators": [
+    "Paulo Carbalone <psoreto@outlook.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "novel_reader_bg.wasm",
+    "novel_reader.js",
+    "novel_reader_bg.js",
+    "novel_reader.d.ts"
+  ],
+  "module": "novel_reader.js",
+  "types": "novel_reader.d.ts",
+  "sideEffects": [
+    "./novel_reader.js",
+    "./snippets/*"
+  ]
+}
